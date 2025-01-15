@@ -20,4 +20,3 @@ jobs:
 
     - name: Run build diagnosis
       run: npm run build-diagnosis
-Add build diagnosis workflow
