@@ -15,14 +15,16 @@ const TenantSignup = () => {
       const { error } = await supabase.auth.signInWithOAuth({
         provider,
         options: {
-          redirectTo: `${window.location.origin}/`,
+          redirectTo: window.location.origin,
         },
       });
 
       if (error) {
+        console.error("Auth error:", error);
         toast.error("Ett fel uppstod vid registrering");
       }
     } catch (error) {
+      console.error("Signup error:", error);
       toast.error("Ett fel uppstod vid registrering");
     } finally {
       setIsLoading(false);
