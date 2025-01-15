@@ -12,23 +12,23 @@ const Index = () => {
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fadeIn">
-            Find Your Perfect Match in Rental Housing
+            Hitta Din Perfekta Match i Hyresboende
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto animate-fadeIn">
-            Connect with verified tenants and trusted landlords. Make rental matching simpler and more reliable.
+            Koppla samman med verifierade hyresgäster och pålitliga hyresvärdar. Gör hyresmatching enklare och mer tillförlitligt.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeIn">
             <Link
               to="/tenant-signup"
               className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors inline-flex items-center justify-center"
             >
-              I'm a Tenant <ArrowRight className="ml-2" size={20} />
+              Jag är Hyresgäst <ArrowRight className="ml-2" size={20} />
             </Link>
             <Link
               to="/landlord-signup"
               className="bg-secondary text-white px-8 py-3 rounded-lg hover:bg-secondary/90 transition-colors inline-flex items-center justify-center"
             >
-              I'm a Landlord <ArrowRight className="ml-2" size={20} />
+              Jag är Hyresvärd <ArrowRight className="ml-2" size={20} />
             </Link>
           </div>
         </div>
@@ -38,34 +38,34 @@ const Index = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-            Why Choose RentMatch?
+            Varför Välja HyresMatch?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="animate-fadeIn">
               <div className="text-primary mb-4">
                 <Shield size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Verified Profiles</h3>
+              <h3 className="text-xl font-semibold mb-2">Verifierade Profiler</h3>
               <p className="text-gray-600">
-                Every tenant and landlord profile is carefully verified for your peace of mind.
+                Varje hyresgäst- och hyresvärdsprofil verifieras noggrant för din trygghet.
               </p>
             </Card>
             <Card className="animate-fadeIn [animation-delay:200ms]">
               <div className="text-primary mb-4">
                 <Star size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Smart Matching</h3>
+              <h3 className="text-xl font-semibold mb-2">Smart Matchning</h3>
               <p className="text-gray-600">
-                Our intelligent system matches tenants with properties based on preferences and requirements.
+                Vårt intelligenta system matchar hyresgäster med bostäder baserat på preferenser och krav.
               </p>
             </Card>
             <Card className="animate-fadeIn [animation-delay:400ms]">
               <div className="text-primary mb-4">
                 <Home size={32} />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Quality Listings</h3>
+              <h3 className="text-xl font-semibold mb-2">Kvalitetsannonser</h3>
               <p className="text-gray-600">
-                Access high-quality property listings from verified landlords in your desired area.
+                Få tillgång till högkvalitativa bostadsannonser från verifierade hyresvärdar i ditt önskade område.
               </p>
             </Card>
           </div>
@@ -76,16 +76,16 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6 text-gray-900">
-            Ready to Find Your Perfect Match?
+            Redo att Hitta Din Perfekta Match?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join thousands of happy tenants and landlords who have found their perfect match.
+            Gå med tusentals nöjda hyresgäster och hyresvärdar som har hittat sin perfekta match.
           </p>
           <Link
             to="/signup"
             className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors inline-flex items-center justify-center"
           >
-            Get Started Now <ArrowRight className="ml-2" size={20} />
+            Kom Igång Nu <ArrowRight className="ml-2" size={20} />
           </Link>
         </div>
       </section>

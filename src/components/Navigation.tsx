@@ -11,23 +11,23 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-xl font-semibold text-gray-800">
-              RentMatch
+              HyresMatch
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/tenant-signup" className="text-gray-600 hover:text-primary transition-colors">
-              For Tenants
+              För Hyresgäster
             </Link>
             <Link to="/landlord-signup" className="text-gray-600 hover:text-primary transition-colors">
-              For Landlords
+              För Hyresvärdar
             </Link>
             <Link
               to="/signup"
               className="bg-primary text-white px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
             >
-              Get Started
+              Kom Igång
             </Link>
           </div>
 
@@ -51,21 +51,21 @@ const Navigation = () => {
                 className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                For Tenants
+                För Hyresgäster
               </Link>
               <Link
                 to="/landlord-signup"
                 className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                For Landlords
+                För Hyresvärdar
               </Link>
               <Link
                 to="/signup"
                 className="block px-3 py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Get Started
+                Kom Igång
               </Link>
             </div>
           </div>
