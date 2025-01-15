@@ -1,0 +1,15 @@
+name: CodeFundi Build Diagnosis AI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run CodeFundi Build Diagnosis AI
+        uses: codefundi/build-diagnosis-ai@v1
+        with:
+          # Add necessary inputs or configuration options here
