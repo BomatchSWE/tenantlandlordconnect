@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run CodeFundi Build Diagnosis AI
-        uses: codefundi/build-diagnosis-ai@v1
+        uses: Code-Fundi/code-fundi-action@0.0.4
         with:
           api-key: ${{ secrets.CODEFUNDI_API_KEY }}
           option1: value1
