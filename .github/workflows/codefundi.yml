@@ -12,4 +12,6 @@ jobs:
       - name: Run CodeFundi Build Diagnosis AI
         uses: codefundi/build-diagnosis-ai@v1
         with:
-          # Add necessary inputs or configuration options here
+          api-key: ${{ secrets.CODEFUNDI_API_KEY }}
+          option1: value1
+          option2: value2
