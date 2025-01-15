@@ -17,7 +17,7 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/tenant-signup" className="text-gray-600 hover:text-primary transition-colors">
+            <Link to="/tenant-login" className="text-gray-600 hover:text-primary transition-colors">
               För Hyresgäster
             </Link>
             <Link to="/landlord-signup" className="text-gray-600 hover:text-primary transition-colors">
@@ -47,7 +47,7 @@ const Navigation = () => {
           <div className="md:hidden animate-slideIn">
             <div className="pt-2 pb-3 space-y-1">
               <Link
-                to="/tenant-signup"
+                to="/tenant-login"
                 className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
