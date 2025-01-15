@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import LandlordCheckout from "./pages/LandlordCheckout";
 import TenantLogin from "./pages/TenantLogin";
+import TenantSignup from "./pages/TenantSignup";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/landlord-signup" element={<LandlordCheckout />} />
             <Route path="/tenant-login" element={<TenantLogin />} />
+            <Route path="/tenant-signup" element={<TenantSignup />} />
           </Routes>
         </BrowserRouter>
       </div>
